@@ -12,5 +12,7 @@ def input_to_index(input)
 end
 
 def move(array, index, value)
-  array[index]=value
+  if index in (0,9)
+    array[index]=value
+  end
 end
