@@ -12,7 +12,7 @@ def input_to_index(input)
 end
 
 def move(array, index, value)
-  if (index<10) && (index>-1) 
+  if (index<10) && (index>-1)
     array[index]=value
   end
 end
