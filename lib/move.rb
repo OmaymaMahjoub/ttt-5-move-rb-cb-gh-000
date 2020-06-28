@@ -11,7 +11,7 @@ def input_to_index(input)
   return (input.to_i-1)
 end
 
-def move(array, index, value)
+def move(array, index, value="X")
   if (index<10) && (index>-1)
     array[index]=value
   end
